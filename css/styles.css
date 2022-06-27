@@ -1,37 +1,115 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: white;
     text-align: center;
     height: 100%;
-    padding: 50px;
 }
 
 .Uberschrift2 {
-    text-align: left;
-}
-
-.header {
     text-align: center;
-    background-color: darkgray;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
 }
 
-.title-container {
-    margin-bottom: 10px;
+.section-header {
+    text-align: center;
+    color: black;
+    font-weight: bold;
 }
 
-.title-pic {
+.navbar-container {
+    display: flex;
+    justify-content: end;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    position: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.title-image {
+    background-image: url("../images/road.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.title-text-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-text {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.title-description {
+    font-size: 30px;
+    color: lightgray;
+}
+
+.route-container {
+    height: 100%;
+    background-color: #dddddd;
+    padding-top: 20px;
+}
+
+.maps-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 85%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.maps-container iframe {
+    height: 100%;
     width: 100%;
-    height: 500px;
+}
+
+.maps-text {
+    width: 30%;
 }
 
 .frame-container {
     width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-iframe {
+.frame-container iframe {
     width: 100%;
     height: 250px;
     border-style: none;
+    position: center;
 }

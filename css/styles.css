@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+    text-align: center;
+    height: 100%;
+    padding: 50px;
+}
+
+.Uberschrift2 {
+    text-align: left;
+}
+
+.header {
+    text-align: center;
+    background-color: darkgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.title-container {
+    margin-bottom: 10px;
+}
+
+.title-pic {
+    width: 100%;
+    height: 500px;
+}
+
+.frame-container {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 250px;
+    border-style: none;
+}

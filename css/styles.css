@@ -18,6 +18,12 @@ body {
     font-weight: bold;
 }
 
+.line {
+    max-width: 50px;
+    border-color: darkcyan;
+    border-width: 3px;
+}
+
 .navbar-container {
     display: flex;
     justify-content: end;
@@ -98,13 +104,18 @@ body {
     width: 30%;
 }
 
+.gallery-container {
+    height: 100%;
+    padding-top: 20px;
+}
+
 .frame-container {
     width: 100%;
-    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
 }
 
 .frame-container iframe {

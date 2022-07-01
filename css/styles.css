@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     background-color: white;
     text-align: center;
     height: 100%;
@@ -25,33 +26,34 @@ body {
 }
 
 .navbar-container {
-    display: flex;
-    justify-content: end;
+    width: 100%;
+    height: 5%;
+    text-align: end;
+    position: fixed;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-    overflow: hidden;
-    position: center;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
+.navbarColor {
+    transition: all 1s;
+    background-color: white;
+    height: 7%;
     color: black;
 }
 
-.title-image {
+.nav-link {
+    color: black;
+}
+
+.nav-item {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.title-section {
     background-image: url("../images/road.jpg");
     height: 100%;
     background-position: center;
@@ -64,6 +66,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 60px;
 }
 
 .title-text {
@@ -76,12 +79,12 @@ body {
 
 .title-description {
     font-size: 30px;
-    color: lightgray;
+    color: white;
 }
 
 .route-container {
     height: 100%;
-    background-color: #dddddd;
+    background-color: #fff;
     padding-top: 20px;
 }
 

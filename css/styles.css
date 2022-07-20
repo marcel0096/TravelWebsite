@@ -43,13 +43,17 @@ body {
     color: black;
 }
 
+.nav-link:hover {
+    color: blue;
+    font-weight: bold;
+}
+
 .nav-item {
     display: inline-block;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
     font-size: 1.2rem;
-    font-weight: bold;
     color: white;
 }
 
@@ -80,6 +84,7 @@ body {
 .title-description {
     font-size: 30px;
     color: white;
+    padding-top: 1%;
 }
 
 .route-container {
@@ -125,5 +130,31 @@ body {
     width: 100%;
     height: 250px;
     border-style: none;
-    position: center;
+}
+
+/* FOOTER */
+.container-footer {
+    background-color: lightgrey;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link {
+    font-size: .8rem;
+    color: black;
+    padding: 0.5rem;
+}
+
+.footer-link:hover {
+    color: blue;
+    text-underline: white;
 }
